@@ -26,7 +26,19 @@ The above command creates ~/.ssh/ directory. So if your user name is vivek, than
     $HOME/.ssh/id_rsa.pub – Your public key
 
 Please note that the passphrase must be different from your current password and do not share keys or passphrase with anyone. Also, make sure you have correct and secure permissions on $HOME/.ssh/ directory:
-
+1
+2
+3
+3
+4
+4
+5
+6
+7
+8
+9
+10
+11
 ls -ld $HOME/.ssh/
 chmod 0600 $HOME/.ssh/
 
@@ -34,6 +46,23 @@ Keys Are Generated, What Next?
 
 You need to copy $HOME/.ssh/id_rsa.pub file to remote server so that you can login using keys instead of the password. Use any one of the following command to copy key to remote server called vpn22.nixcraft.net.in for vivek user:
 ssh-copy-id vivek@vpn22.nixcraft.net.in
+9
+
+8
+
+7
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
 
 On some *nix system such as OS X ssh-copy-id command may not be installed, use the following commands (when prompted provide the password for remote user account called vivek) to install/append the public key on remote host:
 ssh vivek@vpn22.nixcraft.net.in "umask 077; mkdir .ssh"
