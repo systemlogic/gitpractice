@@ -34,13 +34,12 @@ Please note that the passphrase must be different from your current password and
 4
 5
 MY dirty branch code goes here
-
-6
-7
-8
-9
-10
-11
+MY dirty branch code goes here
+MY dirty branch code goes here
+MY dirty branch code goes here
+MY dirty branch code goes here
+MY dirty branch code goes here
+MY dirty branch code goes here
 ls -ld $HOME/.ssh/
 chmod 0600 $HOME/.ssh/
 
@@ -50,21 +49,21 @@ You need to copy $HOME/.ssh/id_rsa.pub file to remote server so that you can log
 ssh-copy-id vivek@vpn22.nixcraft.net.in
 9
 MY dirty branch code goes here
-8
-
+MY dirty branch code goes here
+MY dirty branch code goes here
 7
 6
 MY dirty branch code goes here
 5
-
+MY dirty branch code goes here
 4
-
+MY dirty branch code goes here
 3
 MY dirty branch code goes here
 2
-
+MY dirty branch code goes here
 1
-
+MY dirty branch code goes here
 
 On some *nix system such as OS X ssh-copy-id command may not be installed, use the following commands (when prompted provide the password for remote user account called vivek) to install/append the public key on remote host:
 ssh vivek@vpn22.nixcraft.net.in "umask 077; mkdir .ssh"
@@ -83,7 +82,3 @@ Recommend readings:
     sshpass: Login To SSH Server / Provide SSH Password Using A Shell Script
     keychain: Set Up Secure Passwordless SSH Access For Backup Scripts
     Man pages – ssh(1),ssh-agent(1),ssh-add(1),ssh-keygen(1)
-
-Posted by: Vivek Gite
-
-The author is the creator of nixCraft and a seasoned sysadmin, DevOps engineer, and a trainer for the Linux operating system/Unix shell scripting. Get the latest tutorials on SysAdmin, Linux/Unix and open source topics via RSS/XML feed or weekly email newsletter.
